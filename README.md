@@ -13,9 +13,10 @@ Data Extracted:
 - Stars (represented by ⭐)
 - Images (URLs joined as a string)
 - Body Text
+
+
 - convertJsonToCsv() Method
 
-  
 Description: Converts the extracted review information into a CSV format.
 Output: Returns a CSV-formatted string that can be downloaded as a file.
 - downloadCsv() Method
@@ -27,9 +28,11 @@ Functionality:
 
 
 - convertJsonToJsonString() Method
-Description: Converts the extracted review information into a JSON string.
-Output: Returns a JSON-formatted string containing the review information.
-downloadJson() Method
+
+Description: 
+- Converts the extracted review information into a JSON string.
+- Output: Returns a JSON-formatted string containing the review information.
+- downloadJson() Method
 Description: Initiates the download of review information in JSON format.
 Functionality:
 - Calls extractReviewInfo() to populate extractedInfo.
